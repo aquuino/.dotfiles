@@ -2,9 +2,9 @@ This contains the dotfiles for my system
 
 ## Whats in here?
 
-.zshrc config - mainly vanilla `oh-my-zsh` with a few tweaks
-nvim config - mainly based on ThePrimeagen NVIM Config
-tmux -
+`zshrc`  
+`nvim`  
+`tmux`
 
 ## Requirements
 
