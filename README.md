@@ -2,8 +2,9 @@ This contains the dotfiles for my system
 
 ## Whats in here?
 
-.zshrc config - mainly vanilla `oh-my-zsh` with a few tweaks  
-nvim config - mainly NVChad with some teaks
+.zshrc config - mainly vanilla `oh-my-zsh` with a few tweaks
+nvim config - mainly based on ThePrimeagen NVIM Config
+tmux -
 
 ## Requirements
 
@@ -19,6 +20,12 @@ apt install git
 
 ```
 apt install stow
+```
+
+### Tmux Plugin Manager
+
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 ##  How to use
