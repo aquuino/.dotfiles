@@ -97,7 +97,9 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias ls='ls -hlGH'
+
+alias ls='exa -1 -l --colour=auto --icons'
+alias ls -a='exa -1 -a --colour=auto --icons'
 alias vim='nvim'
 
 export PATH="$PATH:/opt/nvim-linux64/bin"

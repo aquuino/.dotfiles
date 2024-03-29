@@ -27,6 +27,11 @@ apt install stow
 ```
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+### exa 
+
+```
+apt install exa
+```
 
 ##  How to use
 
