@@ -99,8 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 
 alias ls='exa -1 -l --colour=auto --icons'
-alias ls -a='exa -1 -a --colour=auto --icons'
+alias la='exa -1  --all --colour=auto --icons'
 alias vim='nvim'
+alias vi='nvim'
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
 force_color_prompt=yes

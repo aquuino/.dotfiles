@@ -5,6 +5,7 @@ This contains the dotfiles for my system
 `zshrc`  
 `nvim`  
 `tmux`
+`alacritty`
 
 ## Requirements
 
