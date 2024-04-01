@@ -23,6 +23,12 @@ apt install git
 apt install stow
 ```
 
+### oh-my-zsh
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ### Tmux Plugin Manager
 
 ```

@@ -7,14 +7,21 @@ return {
     end,
   },
   {
-  "catppuccin/nvim",
-  lazy = false,
-  priority = 1000
+    "catppuccin/nvim",
+    lazy = false,
+    priority = 1000
   },
   {
-  "folke/zen-mode.nvim",
-  lazy = false
+    "folke/zen-mode.nvim",
+    lazy = false
   },
+  {
+   'nvim-telescope/telescope.nvim', tag = '0.1.6',
+    lazy =false,
+    mappings = {
+    },
+    dependencies = { 'nvim-lua/plenary.nvim' }
+    },
   {
    	"nvim-treesitter/nvim-treesitter",
     lazy = false,
@@ -24,5 +31,5 @@ return {
         "html", "css"
    		},
    	},
-   },
+  },
 }
