@@ -6,28 +6,18 @@ return {
       require "configs.conform"
     end,
   },
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-  -- These are some examples, uncomment them if you want to see them work!
-  -- {
-  --   "neovim/nvim-lspconfig",
-  --   config = function()
-  --     require("nvchad.configs.lspconfig").defaults()
-  --     require "configs.lspconfig"
-  --   end,
-  -- },
-  --
-  -- {
-  -- 	"williamboman/mason.nvim",
-  -- 	opts = {
-  -- 		ensure_installed = {
-  -- 			"lua-language-server", "stylua",
-  -- 			"html-lsp", "css-lsp" , "prettier"
-  -- 		},
-  -- 	},
-  -- },
-  --
-   {
+  {
+  "catppuccin/nvim",
+  lazy = false,
+  priority = 1000
+  },
+  {
+  "folke/zen-mode.nvim",
+  lazy = false
+  },
+  {
    	"nvim-treesitter/nvim-treesitter",
+    lazy = false,
    	opts = {
    		ensure_installed = {
    			"vim", "lua", "vimdoc",
